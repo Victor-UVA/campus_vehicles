@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg="base" name="estop" type="estop.py" output="screen"/>
+  <node pkg="base" name="enable" type="enable.py" output="screen"/> 
+  <node pkg="base" name="acceleration" type="acceleration.py" output="screen"/>
+  <node pkg="base" name="brakeing" type="braking.py" output="screen"/> 
+  <node pkg="base" name="steering" type="steering.py" output="screen"/> 
+ 
+</launch>
